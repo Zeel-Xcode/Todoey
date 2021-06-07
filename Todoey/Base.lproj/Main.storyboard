@@ -30,11 +30,18 @@
                             <outlet property="delegate" destination="gNx-20-eYV" id="FJW-dZ-mmo"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Todoey" id="LWa-IT-mdl"/>
+                    <navigationItem key="navigationItem" title="Todoey" id="LWa-IT-mdl">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="ECu-Rx-URH">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="AddButtonPressed:" destination="gNx-20-eYV" id="Tfx-A0-BHD"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mWL-su-a02" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1828.985507246377" y="103.79464285714285"/>
+            <point key="canvasLocation" x="2293" y="85"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="NFr-5K-Nse">
